@@ -27,7 +27,7 @@ RSpec.describe StoreAdminController, type: :controller do
   #     expect(page.find("h2").text).to eq("Welcome to Flatiron Open Orders")
   #     expect(page.all("ol li").size).to be >= 1
   #   end
-  end
+  # end
 
   describe "GET invoice" do
     it "renders the invoice template without any layout" do
